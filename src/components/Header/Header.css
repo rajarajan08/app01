@@ -1,0 +1,35 @@
+.header-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vw;
+  max-width: 63%;
+  bottom: 10%;
+  left: 6vw;
+  animation: fadeIn 3s;
+  background-color: #0e4f0cd4;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.header-content h2 {
+  font-weight: 500;
+  font-size: max(3.5vw, 22px);
+  color: #fff;
+}
+
+.header-content p {
+  font-size: 1vw;
+  color: #fff;
+}
+
+.header-content button {
+  border: none;
+  color: #747474;
+  background-color: #fff;
+  font-weight: 500;
+  padding: 1vw 2.3vw;
+  font-size: max(1vw, 13px);
+  border-radius: 50px;
+}
